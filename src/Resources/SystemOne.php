@@ -34,7 +34,6 @@ readonly class SystemOne extends SyncResource
         return new self(
             $http,
             '/api/v1/typesafe/system_one',
-            'typesafe/system-one',
             SystemOneResponse::class,
         );
     }
